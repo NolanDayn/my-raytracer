@@ -1,0 +1,7 @@
+#ignore all exes
+*.exe
+
+#ignore all images
+*.png
+*.ppm
+*.jpg
