@@ -27,12 +27,12 @@ inline double degrees_to_radians(double degrees) {
 
 inline double random_double() {
     // Return a random real in [0,1]
-    return (rand() % 100) / 100.0;
+    return rand() / (RAND_MAX + 1.0);
 }
 
 inline double random_double(double min, double max) {
     //Returns a random real in [min,max]
-    return min + (min-max)*random_double();
+    return min + (max-min)*random_double();
 }
 
 //Common headers
