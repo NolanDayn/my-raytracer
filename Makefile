@@ -6,3 +6,7 @@ raytracer: main.o
 
 main.o:
 	$(CC) $(CFLAGS) -c main.cc
+
+clean:
+	-rm *.o raytracer
+

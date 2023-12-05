@@ -32,6 +32,7 @@ class hittable_list : public hittable {
                     hit_anything = true;
                     closest_so_far = temp_rec.t;
                     rec = temp_rec;
+                    
                 }
             }
 

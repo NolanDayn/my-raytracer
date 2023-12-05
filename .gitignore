@@ -1,5 +1,9 @@
-#ignore all exes
+#ignore all exes and object files
 *.exe
+*.o
+
+#ignore asm files
+*.s
 
 #ignore all images
 *.png
